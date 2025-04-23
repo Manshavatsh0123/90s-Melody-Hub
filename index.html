@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>90s Melody Hub - Your Gateway to Bollywood's Golden Tunes!</title>
+</head>
+<body>
+    <header>
+      <div class="menu_side">
+        <h1>Playlist</h1>
+        <div class="playlist">
+            <h4 class="active"><span></span><i class="fa-solid fa-music"></i>Playlist</h4>
+            <h4><span></span><i class="fa-solid fa-music"></i>Last Listening</h4>
+            <h4><span></span><i class="fa-solid fa-music"></i>Recommended</h4>
+        </div>
+      <div class="menu_song">
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpg" alt="">
+          <h5>Pehla Nasha <br> <div class="subtitle">Udit Narayan</div></h5>
+          <i class="fa-solid playlistPlay fa-circle-play" id="1"></i>
+        </li>
+        <li class="songItem">
+          <span>02</span>
+          <img src="img/2.jpg" alt="">
+          <h5>Tum Mile Dil Khile <br> <div class="subtitle">Kumar Sanu</div></h5>
+          <i class="fa-solid playlistPlay fa-circle-play" id="2"></i>
+        </li>
+        <li class="songItem">
+          <span>03</span>
+          <img src="img/3.jpg" alt="">
+          <h5>Baahon Ke Darmiyan<br> <div class="subtitle">Alka Yagnik</div></h5>
+          <i class="fa-solid playlistPlay fa-circle-play" id="3"></i>
+        </li>
+        <li class="songItem">
+          <span>04</span>
+          <img src="img/4.jpg" alt="">
+          <h5>Mera Dil Bhi Kitna Pagal Hai<br> <div class="subtitle">Kumar Sanu</div></h5>
+          <i class="fa-solid playlistPlay fa-circle-play" id="4"></i>
+        </li>
+        <li class="songItem">
+          <span>05</span>
+          <img src="img/5.jpg" alt="">
+          <h5>O O Jaane Jaana<br> <div class="subtitle">Kamaal Khan</div></h5>
+          <i class="fa-solid playlistPlay fa-circle-play" id="5"></i>
+        </li>
+        <li class="songItem">
+          <span>06</span>
+          <img src="img/6.jpg" alt="">
+          <h5>Dil To Pagal Hai<br> <div class="subtitle">Lata Mangeshkar</div></h5>
+          <i class="fa-solid playlistPlay fa-circle-play" id="6"></i>
+        </li>
+        <li class="songItem">
+          <span>07</span>
+          <img src="img/7.jpg" alt="">
+          <h5>Chura Ke Dil Mera<br> <div class="subtitle">Kumar Sanu</div></h5>
+          <i class="fa-solid playlistPlay fa-circle-play" id="7"></i>
+        </li>
+        <li class="songItem">
+          <span>08</span>
+          <img src="img/8.jpg" alt="">
+          <h5>Humko Sirf Tumse Pyaar Hai <br> <div class="subtitle">Alka Yagnik</div></h5>
+          <i class="fa-solid playlistPlay fa-circle-play" id="8"></i>
+        </li>
+        
+        
+      </div>
+      </div> 
+
+
+
+      <div class="song_side">
+        <nav>
+          <ul>
+            <li>Discover<span></span></li>
+            <li>MY LIBRARY</li>
+            <li>RADIO</li>
+          </ul>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="What do you want to play?">
+            <div class="search_result">
+              <!--<a href="" class="card">
+                <img src="img/1.jpg" alt="">
+                <div class="content">
+                  Pehla Nasha
+                  <div class="subtitle">Udit Narayan</div>
+                </div>
+              </a>-->
+            </div>
+          </div>
+          <div class="user">
+            <a href="login.html"><img src="img/Mansha.jpg" alt=""></a>
+          </div>
+        </nav>
+        <div class="content">
+          <h1>Relive Bollywood’s Golden Era!</h1>
+          <p>Dive into the nostalgia of the 90s with timeless Bollywood hits! From soulful melodies to iconic dance tracks, rediscover the magic of legendary voices and unforgettable tunes. Let the music take you back to the era of pure romance and rhythm!</p>
+          <div class="buttons">
+          <button>PLAY</button>
+          <button>FOLLOW</button>
+        </div>
+       </div>
+
+       <div class="popular_song">
+        <div class="h4">
+          <h4>Popular albums and singles</h4>
+          <div class="btn_s">
+            <i class="fa-solid fa-arrow-left" id="pop_song_left"></i>
+            <i class="fa-solid fa-arrow-right"  id="pop_song_right"></i>
+          </div>
+        </div>
+
+        <div class="pop_song">
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/9.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="9"></i>
+            </div>
+            <h5 class="h5">Pardesi Pardesi<br> 
+              <div class="subtitle">Alka Yagnik</div></h5>
+          </li>
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/10.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="10"></i>
+            </div>
+            <h5 class="h5">Dil Hai Ke Manta Nahin<br> 
+              <div class="subtitle">Kumar Sanu</div></h5>
+          </li>
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/11.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="11"></i>
+            </div>
+            <h5 class="h5">Do Dil Mil Rahe Hain<br> 
+              <div class="subtitle">Kumar Sanu </div></h5>
+          </li>
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/12.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="12"></i>
+            </div>
+            <h5 class="h5">Aankhon Ki Gustakhiyan<br> 
+              <div class="subtitle">Kumar Sanu</div></h5>
+          </li>
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/13.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="13"></i>
+            </div>
+            <h5 class="h5">Chura Ke Dil Mera<br> 
+              <div class="subtitle">Kumar Sanu</div></h5>
+          </li>
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/14.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="14"></i>
+            </div>
+            <h5 class="h5">Hamari Shaadi Mein<br> 
+              <div class="subtitle">Babul Supriyo</div></h5>
+          </li>
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/15.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="15"></i>
+            </div>
+            <h5 class="h5"> Chand Chhupa Badal Mein <br> 
+              <div class="subtitle"> Udit Narayan</div></h5>
+          </li>
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/16.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="16"></i>
+            </div>
+            <h5 class="h5">Tujhe Dekha Toh Yeh Jana Sanam<br> 
+              <div class="subtitle">Kumar Sanu</div></h5>
+          </li>
+          <li class="songItem">
+            <div class="img_play">
+              <img src="img/17.jpg" alt="">
+              <i class="fa-solid playlistPlay fa-circle-play" id="17"></i>
+            </div>
+            <h5 class="h5">Baazigar O Baazigar<br> 
+              <div class="subtitle">Kumar Sanu</div></h5>
+          </li>
+        
+        </div>
+       </div>
+       <div class="popular_artists">
+        <div class="h3">
+          <h4>Popular artists</h4>
+          <div class="btn_s">
+            <i class="fa-solid fa-arrow-left" id="item_btn_left"></i>
+            <i class="fa-solid fa-arrow-right"id="item_btn_right"></i>
+          </div>
+        </div>
+        <div class="item">
+          <li>
+            <a href="sanu.html"><img src="img/artists/kumar.jpg" alt=""></a>
+            <i class="fa-solid playlistPlay fa-circle-play" ></i>
+            <h5 class="h5">Kumar Sanu <br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+          <li>
+            <a href="alka.html"><img src="img/artists/alka.jpg" alt=""></a>
+            <i class="fa-solid playlistPlay fa-circle-play" ></i>
+            <h5 class="h5">Alka Yagnik <br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+          <li>
+            <a href="Lata.html"><img src="img/artists/Lata Mangeshkar.jpg" alt=""></a>
+            <i class="fa-solid playlistPlay fa-circle-play" ></i>
+            <h5 class="h5">Lata Mangeshkar <br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+          <li>
+            <a href="Sonu.html"><img src="img/artists/Sonu Nigam.jpg" alt=""></a>
+            <i class="fa-solid playlistPlay fa-circle-play" ></i>
+            <h5 class="h5">Sonu Nigam <br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+          <li>
+            <a href="udit.html"><img src="img/artists/Udit.jpg" alt=""></a>
+            <i class="fa-solid playlistPlay fa-circle-play" ></i>
+            <h5 class="h5">Udit Narayan <br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+          <li>
+            <a href="Hariharan.html"><img src="img/artists/Hariharan.jpg" alt=""></a>
+            <i class="fa-solid playlistPlay fa-circle-play" ></i>
+            <h5 class="h5">Hariharan<br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+          <li>
+            <a href="Kavita.html"><img src="img/artists/Kavita Krishnamurthy.jpg" alt=""></a>
+            <i class="fa-solid playlistPlay fa-circle-play" ></i>
+            <h5 class="h5">Kavita Krishnamurthy <br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+          <li>
+            <a href="Abhijeet.html"><img src="img/artists/Abhijeet Bhattacharya.jpg" alt=""></a>
+            <i class="fa-solid playlistPlay fa-circle-play"></i>
+            <h5 class="h5">Abhijeet Bhattacharya<br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+        </div>
+       </div>
+
+      <div class="radio">
+        <div class="h6">
+          <h4>Popular radio</h4>
+          <div class="btn_s">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="item_radio">
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/radio/R1.jpg" alt="">
+            <h5 class="h5">Kumar Sanu Radio<br> 
+              <div class="subtitle">Artist</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/radio/R2.jpg" alt="">
+            <h5 class="h5">Kishore Kumar Radio<br> 
+              <div class="subtitle">With Kishore Kumar, Dhruv Sharma, Chitra Vichitra Ji Maharaj and more</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/radio/R3.jpg" alt="">
+            <h5 class="h5">Mukesh Radio<br> 
+              <div class="subtitle">With Mohammed Rafi, Kishore Kumar, Hemant Kumar and more</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/radio/R4.jpg" alt="">
+            <h5 class="h5">Raj Kapoor Radio<br> 
+              <div class="subtitle">With Mukesh, Mohammed Rafi, Shabbir Kumar and more</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/radio/R5.jpg" alt="">
+            <h5 class="h5">Shammi Kapoor Radio<br> 
+              <div class="subtitle">With R. D. Burman, Mahendra Kapoor, Asha Bhosle and more</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/radio/R6.jpg" alt="">
+            <h5 class="h5">Sujatha Radio<br> 
+              <div class="subtitle">With Vidyasagar, Udit Narayan, Suresh Peters and more</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/radio/R7.jpg" alt="">
+            <h5 class="h5">Jaya Kishori Radio<br> 
+              <div class="subtitle">With Upasana Mehta, Dhruv Sharma, Chitra Vichitra Ji Maharaj and more</div></h5>
+          </li>
+        </div>
+      </div>
+
+      <div class="radio">
+        <div class="h6">
+          <h4>Popular radio</h4>
+          <div class="btn_s">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="item_radio">
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/feature/F1.png" alt="">
+            <h5 class="h5">Your weekly update of the most played tracks right now - Global.<br> 
+              <div class="subtitle">Top Songs-Global</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/feature/F2.png" alt="">
+            <h5 class="h5">Your weekly update of the most played tracks right now - India.<br> 
+              <div class="subtitle">Top Songs-India</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/feature/F3.jpg" alt="">
+            <h5 class="h5">Your daily update of the most played tracks right now - Global.<br> 
+              <div class="subtitle">Top 50-Global</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/feature/F4.jpg" alt="">
+            <h5 class="h5">Your daily update of the most played tracks right now - India.<br> 
+              <div class="subtitle">Top 50-Global</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/feature/F5.jpg" alt="">
+            <h5 class="h5">Your daily update of the most viral tracks right now - Global.<br> 
+              <div class="subtitle">Viral 50-Global</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/feature/F6.jpg" alt="">
+            <h5 class="h5">Your daily update of the most viral tracks right now - India.<br> 
+              <div class="subtitle">Viral 50-India</div></h5>
+          </li>
+        </div>
+      </div>
+
+      <div class="radio">
+        <div class="h6">
+          <h4>India's Best</h4>
+          <div class="btn_s">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="item_radio">
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/BEST/IN10.jpg" alt="">
+            <h5 class="h5">Hottest tracks from your favourite I-Pop Icons.<br> 
+              <div class="subtitle">Cover- India's Best </div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/BEST/IN3.jpg" alt="">
+            <h5 class="h5">Hottest tracks from your favourite I-Pop Icons.<br> 
+              <div class="subtitle">Cover- India's Best</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/BEST/iN6.jpg" alt="">
+            <h5 class="h5">Hottest tracks from your favourite I-Pop Icons.<br> 
+              <div class="subtitle">Cover- India's Best</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/BEST/iN4.jpg" alt="">
+            <h5 class="h5">Hottest tracks from your favourite I-Pop Icons.<br> 
+              <div class="subtitle">Cover- India's Best</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/BEST/IN5.jpg" alt="">
+            <h5 class="h5">Hottest tracks from your favourite I-Pop Icons.<br> 
+              <div class="subtitle">Cover- India's Best</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/BEST/IN8.jpg" alt="">
+            <h5 class="h5">Hottest tracks from your favourite I-Pop Icons.<br> 
+              <div class="subtitle">Cover- India's Best</div></h5>
+          </li>
+          <li class="radio_section" style="margin-right: 20px;">
+            <img src="img/BEST/IN9.jpg" alt="">
+            <h5 class="h5">Hottest tracks from your favourite I-Pop Icons.<br> 
+              <div class="subtitle">Cover- India's Best</div></h5>
+          </li>
+        </div>
+      </div>
+
+      <div class="foot-panel2">
+        <ul>
+            <p>Company</p>
+            <a >About</a>
+            <a >Jobs</a>
+            <a >For the Record</a>
+        </ul>
+        <ul>
+            <p>Communities</p>
+            <a >For Artists</a>
+            <a >Developers</a>
+            <a >Advertising</a>
+            <a >Investors</a>
+            <a >Vendors</a>
+        </ul>
+        <ul>
+            <p>Useful links</p>
+            <a >Support</a>
+            <a >Free Mobile App</a>
+        </ul>
+        <ul>
+            <p>Spotify Plans</p>
+            <a >Premium Individual</a>
+            <a >Premium Duo</a>
+            <a >Premium Family</a>
+            <a >Premium Student</a>
+            <a >Spotify Free</a>
+        </ul>
+        <ul>
+            <i class="fa-brands fo-icon fa-instagram"></i>
+            <i class="fa-brands fo-icon fa-twitter"></i>
+            <i class="fa-brands fo-icon fa-facebook"></i>
+        </ul>
+       </div>
+       <div class="line">
+            <hr style="opacity: 0.7;">
+            <div class="copyright">© 2025, Spotify AB
+            </div>
+        </div>
+      </div>
+  </div>
+
+
+
+      <div class="master_play">
+        <div class="wave" id="wave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+        <img src="img/1.jpg" alt="" id="poster_master_play">
+        <h5 id="title">
+          Pehla Nasha 
+          <div class="subtitle">Udit Narayan</div>
+        </h5>
+        <div class="icons">
+          <i class="fa-solid shuffle fa-music">next</i>
+          <i class="fa-solid fa-backward-step" id="back"></i>
+          <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+          <i class="fa-solid fa-forward-step" id="next"></i>
+          <a href="" download id="download_music"><i class="fa-solid fa-cloud-arrow-down"></i></a>
+        </div>
+        <span id="currentStart">0:00</span>        
+        <div class="bar">
+          <input type="range" id="seek" min="0" max="100">
+          <div class="bar2" id="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:30</span>
+
+        <div class="vol" id="vol" >
+          <i class="fa-solid fa-volume-high" id="vol_icon"></i>
+          <input type="range" id="vol_seek" min="0" max="100">
+          <div class="vol_bar"></div>
+          <div class="dot" id="vol_dot"></div>
+        </div>
+      </div>
+
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
